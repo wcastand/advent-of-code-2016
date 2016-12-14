@@ -5,7 +5,6 @@ const DIR = { L: -1, R: 1 }
 
 export const calculateDist = x => Math.abs(x.x) + Math.abs(x.y)
 
-// EXO 1.1 // 242
 export function exo11 (path) {
   const moves = path.split(', ')
     .map(x => ({ dir: DIR[R.head(x)], dist: parseInt(R.tail(x), 10) }))
@@ -23,8 +22,6 @@ export function exo11 (path) {
   }
   return R.reduce(moving, position, moves)
 }
-
-// EXO 1.2 // 150
 
 export function exo12 (path) {
   const moves = path.split(', ')
