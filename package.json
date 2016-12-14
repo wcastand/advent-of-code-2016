@@ -5,11 +5,15 @@
   "author": "William Castandet <wcastand@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "lint": "standard | standard-reporter --stylish",
+    "lint:fix": "standard --fix | standard-reporter --stylish"
   },
   "devDependencies": {
     "babel-preset-latest": "^6.16.0",
-    "jest-cli": "^17.0.3"
+    "jest-cli": "^17.0.3",
+    "standard": "^8.6.0",
+    "standard-reporter": "^1.0.5"
   },
   "dependencies": {
     "ramda": "^0.22.1"

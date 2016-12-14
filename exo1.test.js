@@ -1,3 +1,4 @@
+/* global test, expect */
 import fs from 'fs'
 import { exo11, exo12, calculateDist } from './exo1'
 

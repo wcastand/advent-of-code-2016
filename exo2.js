@@ -1,7 +1,5 @@
 import R from 'ramda'
 
-const debug = R.tap(console.log)
-
 export function exo21 (path) {
   const PADS = { PAD1: 1, PAD2: 2, PAD3: 3, PAD4: 4, PAD5: 5, PAD6: 6, PAD7: 7, PAD8: 8, PAD9: 9 }
   const MOVES = { U: -3, D: 3, L: -1, R: 1 }
@@ -24,7 +22,6 @@ export function exo21 (path) {
   }
   return result.join('')
 }
-
 
 export function exo22 (path) {
   const PADS = { 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 'A', 11: 'B', 12: 'C', 13: 'D' }
