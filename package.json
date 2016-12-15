@@ -16,6 +16,7 @@
     "standard-reporter": "^1.0.5"
   },
   "dependencies": {
+    "md5": "^2.2.1",
     "ramda": "^0.22.1"
   },
   "jest": {
